@@ -35,3 +35,27 @@ body {
    order: 3;
 }
 /* Akhir Latihan 1 */
+
+/* Latihan 2 */
+.container-dua {
+   max-width: 800px;
+   margin: 50px auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.layanan {
+   width: 30%;
+   padding: 20px;
+   box-sizing: border-box;
+}
+
+ .satu {
+   background-color: #FFEBAD;
+}
+ .dua {
+   background-color: #AF0171;
+}
+ .tiga {
+   background-color: #D07000;
+}
