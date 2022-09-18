@@ -1,0 +1,37 @@
+html, body{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Catamaran', sans-serif;
+   background-color: #A1C298;
+   line-height: 1.65;
+   padding-bottom: 1000%;
+}
+
+
+/* Latihan 1 */
+.container-satu {
+   width: 800px;
+   margin: 50px auto;
+   background-color: #F2F2F2;
+   padding: 20px;
+   box-sizing: border-box;
+   display: flex;
+}
+
+.kolom-utama {
+   flex: 3;
+   order: 2;
+}
+.sidebar-satu{
+   flex: 1;
+   order: 1;
+}
+.sidebar-dua{
+   padding-left: 3%;
+   flex: 1;
+   order: 3;
+}
+/* Akhir Latihan 1 */
