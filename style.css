@@ -58,6 +58,29 @@ body {
  .tiga {
    background-color: #D07000;
 }
+/* Akhir Latihan 2 */
+
+
+/* Latihan 3 */
+.container-tiga {
+   margin: 50px auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.thumbnail {
+   width: 50%;
+}
+
+.thumbnail img {
+   width: 100%;
+}
+/* Akhir Latihan 3 */
+
+
+/* Latihan 4 */
+
 
 /* Membuat Layar Responsive */
 @media (min-width: 600px) {
@@ -71,5 +94,16 @@ body {
    }
    .layanan h3 {
       text-align: center;
+   }
+
+   .container-tiga {
+      max-width: 800px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   
+   .thumbnail {
+      width: 25%;
    }
 }
